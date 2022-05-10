@@ -1,0 +1,369 @@
+
+body {
+    background: url(https://wallpaperaccess.com/full/6875927.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins-Regular.ttf");
+}
+
+::-webkit-scrollbar {
+width: 6px;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-bg);
+    border-radius: 10px;
+}
+
+.solid {
+background: rgba(255, 255, 255, 0.11);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 20px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 350px;
+width: 300px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -175px 0 0 -150px;      
+}
+
+.solid2 {
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 650px;
+    width: 1300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -325px 0 0 -650px;      
+    }
+
+.solidmenu {
+    background: rgba(0, 0, 0, 0.11);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 350px;
+    width: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -175px 0 0 -625px;      
+    }
+
+.solidhome {
+    background: rgba(0, 0, 0, 0.11);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -225px 0 0 -400px;      
+}
+
+h1 {
+    font-family: Poppins;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+h2 {
+    font-family: Poppins;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+
+.textbox {
+    background: rgba(255, 255, 255, 0.384);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: none;
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 20px;
+    height: 40px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.textbox:hover {
+    background: rgba(182, 182, 182, 0.384);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: none;
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 20px;
+    height: 40px;
+    outline: none;
+}
+
+.btnmenu {
+    background: rgba(255, 255, 255, 0.384);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: none;
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.btnmenu:hover {
+    background: rgba(204, 204, 204, 0.384);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: none;
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    margin-bottom: 20px;
+    color: rgb(216, 216, 216);
+    text-align: left;
+}
+
+.btnmenuactive {
+    background: rgba(0, 174, 255, 0.384);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: none;
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.btnmenuactive:hover {
+    background: rgba(0, 113, 179, 0.384);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: none;
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    margin-bottom: 20px;
+    color: rgb(216, 216, 216);
+    text-align: left;
+}
+
+.buttonflat {
+    border-radius: 20px;
+  height: 44px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition : all 200ms linear;
+  transition: all 200ms linear;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  text-align: center;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.432);
+  color: #8a8a8a;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  margin-bottom: 20px;
+}
+
+.buttonflat:hover {
+    border-radius: 20px;
+  height: 44px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition : all 200ms linear;
+  transition: all 200ms linear;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  text-align: center;
+  border: none;
+  background-color: rgba(197, 197, 197, 0.432);
+  color: #575757;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  margin-bottom: 20px;
+}
+
+.buttonflat2 {
+    border-radius: 20px;
+  height: 44px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition : all 200ms linear;
+  transition: all 200ms linear;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  text-align: center;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.432);
+  color: #dfdfdf;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  margin-bottom: 20px;
+}
+
+.buttonflat2:hover {
+    border-radius: 20px;
+  height: 44px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition : all 200ms linear;
+  transition: all 200ms linear;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  text-align: center;
+  border: none;
+  background-color: rgba(197, 197, 197, 0.432);
+  color: #b8b8b8;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  margin-bottom: 20px;
+}
+
+
+.center {
+    margin-bottom: 20px;
+}
+
+.space {
+    width: 10px;
+    height: auto;
+    display: inline-block;
+  }
+.space2 {
+    width: 50px;
+    height: auto;
+    display: inline-block;
+}
+
+.space3 {
+    width: 35px;
+    height: auto;
+    display: inline-block;
+}
+
+
+.link {
+    color: rgb(214, 214, 214);
+}
+
+.link:hover {
+    color: rgb(128, 126, 126);
+}
+
+.checkbox2 {
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: none;
+}
+
+label {
+    font-family: Poppins;
+    color: rgb(214, 214, 214);
+    text-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.icon {
+    color: rgb(0, 174, 255);
+    margin-left: -25px;
+}
+
+.icon:hover {
+    color: rgb(0, 127, 185);
+    margin-left: -25px;
+}
+
+.icon2 {
+    color: rgb(0, 174, 255);
+    margin-left: 30px;
+}
+
+.icon2:hover {
+    color: rgb(0, 127, 185);
+    margin-left: 30px;
+}
+
+.icon3 {
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.788);
+}
+
