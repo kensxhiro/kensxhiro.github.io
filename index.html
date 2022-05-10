@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/41377f4e20.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="solid" style="display: block; text-align: center;">
+        <div style="text-align: center;">
+            <h1 style="text-align: center;">Login</h1>
+            <i class="fa-solid fa-envelope icon">
+            <input class="textbox" style="text-align:center;" type="email" placeholder="E-Mail Adress"/>
+            </i>
+            <i class="fa-solid fa-lock icon2">
+            <input class="textbox" style="text-align:center; margin-left: 0px;" type="password" id="passInput" placeholder="Password"/>
+            </i>
+            <div class="space2">
+            </div>
+            <input class="checkbox2" type="checkbox" onclick="myFunction()"/><label for="checkbox">Show Password</label>
+            <div class="space2">
+            </div>
+            <a href="loading2.html" style="font-family: Poppins; margin-left: 0px;" class="buttonflat">submit</a>
+            <a class="link" href="forgotpassword.html"style="font-family: Poppins; size: 1.5em;"><br>forgot password ?<br></a>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("passInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+            }
+    </script>
+</body>

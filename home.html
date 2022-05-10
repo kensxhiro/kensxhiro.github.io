@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style2.css">
+    <script src="https://kit.fontawesome.com/41377f4e20.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="solid2" style="display: block;">
+        <table>
+        <tr>
+        <td><h1 style="margin-left: 20px;"> Welcome to Kenshiro website !</h1></td>
+        </tr>
+        <tr>
+        <td><p style="margin-left: 75px; font-family: Poppins;">Desktop</p></td>
+        </tr>
+        <tr>
+        <td>
+            <div class="solidmenu" style="display: block;">
+                <button class="btnmenuactive" style="margin-top: 10px; margin-left:10px;"> <i class="fa-solid fa-eye" style="margin-right: 2px;"></i> Home</button>
+                <button class="btnmenu" style="margin-top: -5px; margin-left:10px;" onclick="window.location.href='shop.html'"> <i class="fa-solid fa-cart-arrow-down" style="margin-right: 2px;"></i> Shop</button>
+                <button class="btnmenu" style="margin-top: -5px; margin-left:10px;" onclick="window.location.href='error404.html'"> <i class="fa-solid fa-user" style="margin-right: 5px;"></i> Account </button>
+                <button class="btnmenu" style="margin-top: -5px; margin-left:10px;" onclick="window.location.href='error404.html'"> <i class="fa-brands fa-discord" style="margin-right: 1px;"></i> Discord </button>
+            </div>
+            <div class="solidhome" style="display: block;">
+                <div style="text-align: center;">
+                    <h2>Home</h2>
+                    <p style="font-family: Poppins; margin-top:-10px;">The kenshiro website <u>doesn't currently support mobile device</u>. This update is coming soon !</p>
+                    <hr>
+                    <div class="wrapper">
+                        <div class="box">
+                            <div class="description">
+                                <h2 style="font-family: Poppins; margin-top: 75px;">Who are we ?</h2>
+                                <p style="font-family: Poppins; margin-bottom: 100px;">Who are we ? It's a good question, for the moment i'm on my own, i'm a little developer looking to get started in the field, so i'm trying several things, for this project, i wanted to try HTML, CSS and JavaScript!</p>
+                            </div>
+                        </div>
+                        <div class="box" style="margin-top: -355px; margin-left: 350px;">
+                            <div class="description">
+                                <h2 style="font-family: Poppins; margin-top: 75px;">How to contact us ?</h2>
+                                <p style="font-family: Poppins; margin-bottom: 75px;">You can contact me directly via the discord available in the menu on the right. Or via the GitHub below.<br>(Twitter will be coming soon)</p>
+                                <ul class="list">
+                                    <li><a href="error404.html"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="error404.html"><i class="fab fa-github"></i></a></li>
+                                    <li><a href="error404.html"><i class="fa-brands fa-discord"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://kit.fontawesome.com/bad7f7f5d4.js" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+                    <script  src="script.js"></script>
+                </div>
+            </div>
+        </td>
+        </tr>
+        </table>
+        <div style="text-align: center;">
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("passInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+            }
+    </script>
+</body>
