@@ -1,7 +1,7 @@
 
 body {
     background: url(https://wallpaperaccess.com/full/6875927.jpg);
-    background-size: contain;
+    background-size: fill;
 }
 
 @font-face {
